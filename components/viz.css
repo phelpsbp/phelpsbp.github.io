@@ -1,0 +1,59 @@
+.viz-covid-viz {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 300px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.viz-container {
+  width: 100%;
+  height: 219px;
+  display: flex;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: var(--dl-space-space-halfunit);
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/rectangle%2099-1500w.png");
+  background-position: center;
+}
+.viz-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.viz-root-class-name {
+  max-width: 275px;
+}
+.viz-root-class-name1 {
+  max-width: 275px;
+}
+.viz-root-class-name2 {
+  max-width: 275px;
+}
+.viz-root-class-name3 {
+  max-width: 275px;
+}
+.viz-root-class-name4 {
+  max-width: 275px;
+}
+.viz-root-class-name5 {
+  max-width: 275px;
+}
+@media(max-width: 991px) {
+  .viz-covid-viz {
+    max-width: 550px;
+  }
+}
+@media(max-width: 767px) {
+  .viz-covid-viz {
+    max-width: 450px;
+  }
+}
+@media(max-width: 479px) {
+  .viz-covid-viz {
+    max-width: 350px;
+  }
+}
